@@ -9,28 +9,28 @@ export default function SimpleSlider() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1
   };
   return (
     <Slider {...settings}>
   
-      <div>
+      <div className="hero-image">
       <img src={heroimg1}
     alt="Company banner"
     width="100%"
     height="100%"
     /> 
       </div>
-      <div>
+      <div className="hero-image">
       <img src={heroimg2}
     alt="Company banner"
     width="100%"
     height="100%"
     /> 
       </div>
-      <div>
+      <div className="hero-image">
       <img src={heroimg3}
     alt="Company banner"
     width="100%"
