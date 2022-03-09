@@ -15,18 +15,15 @@ function App() {
       <div className="topbar">
       <Topbar message="FREE SHIPPING OVER ON ALL ORDERS OVER $75 " /> 
       </div>
-      
+    
       {/* Sidebar */}
-     
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-     
       
       {/* Header */}
-        <Header />
+      <Header />
     
       {/* Hero*/}
       <Heroslide />
-   
     
     {/* Collections */}
     {/* Product Slider */}

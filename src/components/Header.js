@@ -21,7 +21,7 @@ function Header() {
        <li>HOME</li>
        <li>WOMEN'S</li>
        <li>ACCESSORIES</li>
-       <li>SALE</li>
+       <li>SALE!</li>
      </ul>
      </div>
    <div className='header__right'> 

@@ -1,28 +1,30 @@
 /* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+    
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0; 
-}
-
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    figure,
+    blockquote,
+    dl,
+    dd {
+    margin: 0; 
+    }
 
 /*Annoucement bar*/
     .topbar{
         display: flex;
+        flex-wrap: wrap;
+        padding: 0 1rem;
         justify-content: center;
         align-items: center;
         height: 58px;
@@ -35,20 +37,21 @@ dd {
         bottom: 20px;
         font-family: Lato;
         font-style: normal;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 14px;
         line-height: 17px;
         /* identical to box height */
         text-align: center;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-
         color: #FFFFFF;
-                    }
-            /* Header */
+     }
 
+
+            /* Header */
     .header{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         height: 138px;
         background: #10504F;
@@ -60,7 +63,7 @@ dd {
         flex: 2;
         font-family: Lato;
         font-style: normal;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 20px;
         line-height: 24px;
         /* identical to box height */
@@ -69,37 +72,52 @@ dd {
         text-transform: uppercase;
         color: #FFFFFF;
     }
+
+    .slick-dots li.slick-active button:before{
+        color: #fff;
+    }
+
+    .bm-burger-bars{
+        background: #fff;
+    }
+    .bm-menu{
+        background: #0b3837;
+    }
     .header__center ul, li {
-    display: flex;
-    cursor: pointer;
-    padding: 0 2rem;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+        padding: 0 1rem;
+        align-items: center;
+        justify-content: center;
     }
     .header__center ul li:hover{
-        color: gray;
+        color: lightgray;
+    }
+    .header__right svg:hover{
+        color: lightgray;
     }
     .header__right{
         display: flex;
         justify-content: right;
         align-self: center;
         padding-left: 3rem;
+        padding-right: 1rem;
     }
     .header__left{
         display: flex;
-        padding: 2rem 2rem;
+        padding: 2rem 2rem 2rem 4rem;
     }
 
     .header__left img{
-        width: 93px;
-        height: 77px;
+        width: 100%;
+        height: 100%;
     }
     svg{
         color: #fff; 
         margin: 0 .5rem;
         cursor: pointer;
     }
-
     /* Heroslide */
         .hero{
             width: 1440px;
@@ -107,13 +125,75 @@ dd {
             left: 0px;
             top: 0px;
                     }
-
       .hero-image{ 
-            width: 1440px;
-            height: 638px;
+            width: 100%;
+            height: auto;
             left: 0px;
             top: 193px;
          }
+         .head-text {
+            position: relative;
+         }
+         .text-on-image {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            bottom: 25%;
+            flex-wrap: wrap;
+            padding: 0 15rem 0 2rem;
+            align-items: flex-start;
+            text-align: center;
+         }
+
+         .text-on-image h1{  
+            font-family: Pacifico;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 105px;
+            color: #10504F;
+        }
+
+
+        .text-on-image p {  
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 31px;
+            color: #10504F;
+     }
+
+     .text-on-image button{  
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        background: #000;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 0.5rem 1.5rem;
+        margin: 1rem 0;
+     }
+     .text-on-image button:hover{ 
+        background: #fff;
+        color: #10504F;
+     }
+
+     .slick-dots{
+         bottom: 12px;
+     }
+     .slick-dots li button:before{
+         font-size: 10px;
+     }
+
+     .bm-burger-bars{
+        height: 5% !important;
+    }
 
     /* Collections */
 
@@ -126,3 +206,62 @@ dd {
     /* Newsletter */
 
     /* Footer */
+
+
+        /* All media queries below */
+    @media only screen and (max-width: 550px) {
+        .header__center{
+            display: none;
+        }
+        .bm-burger-button{
+            display: flex;
+            left: 24px;
+            top: 104px;
+        }
+    }
+    @media only screen and (min-width: 550px) {
+    .bm-burger-button{
+        display: none;
+     }
+    }
+
+    @media only screen and (max-width: 760px) {
+        .text-on-image{
+            display: flex;
+            position: inherit;
+            flex-direction: column;
+            bottom: 25%;
+            flex-wrap: wrap;
+            padding: 1rem;
+            align-items: center;
+            background: #EFEFEF;
+        }
+        .slick-dots{
+            bottom: 250px;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+     
+            .text-on-image h1 {
+               font-size: 50px; 
+        
+            }
+            .text-on-image p {
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 440px) {
+            .slick-dots{
+            bottom: 280px;
+            }
+            .text-on-image h1 {
+            font-size: 48px; 
+            line-height: 75px;
+                }
+
+            .text-on-image p {
+            font-size: 18px;
+                }
+            }

@@ -70,12 +70,16 @@
   /* Individual item */
 .bm-item {
     display: inline-block;
-  
-    color: #d1d1d1;
+    color: #fff;
     margin-bottom: 10px;
     text-align: left;
     text-decoration: none;
     transition: color 0.2s;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
   }
   
   .bm-item:hover {
