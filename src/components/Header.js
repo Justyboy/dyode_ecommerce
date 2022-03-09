@@ -24,13 +24,10 @@ function Header() {
        <li>SALE</li>
      </ul>
      </div>
-   <div className='header__right'>
-       
+   <div className='header__right'> 
       <SearchIcon />
       <AccountBoxIcon />
       <ShoppingCartIcon />  
-
-
    </div>
    </div>
   )

@@ -1,6 +1,6 @@
 
 import Header from './components/Header';
-import Banner from './components/Banner';
+import Hero from './components/Hero';
 import Sidebar from './components/Sidebar';
 import Annoucementbar from './components/Annoucementbar';
 
@@ -11,17 +11,15 @@ function App() {
   return (
     <div className="App" id="outer-container">
       <Annoucementbar message="FREE SHIPPING OVER ON ALL ORDERS OVER $75 " /> 
-
+      {/* Sidebar */}
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <div id="page-wrap">
-      
-        
-      </div>
-  <Header />
+      {/* Header */}
+        <Header />
 
-<Banner />
- 
-     {/* Banner */}
+      {/* Hero*/}
+      <Hero />
+      
+    
     {/* Collections */}
     {/* Product Slider */}
     {/* Bottom Banner */}
