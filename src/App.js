@@ -3,6 +3,10 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import Heroslide from './components/Heroslide'; 
+import Collection from './components/Collection';
+import Womens from './womens.png';
+import Mens from './mens.png';
+import Accessories from './accessories.png';
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -26,6 +30,12 @@ function App() {
       <Heroslide />
     
     {/* Collections */}
+    <div className="collection-wrapper">
+    <Collection image={Womens} title="Women's"  />
+    <Collection image={Mens} title="Men's"  />
+    <Collection image={Accessories} title="Accessories"  />
+    </div>
+
     {/* Product Slider */}
     {/* Bottom Banner */}
     {/* Newsletter */}
