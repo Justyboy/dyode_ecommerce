@@ -8,7 +8,7 @@ import Womens from './womens.png';
 import Mens from './mens.png';
 import Accessories from './accessories.png';
 import Productslide from './components/Productslide';
-import Products from './components/Products';
+import Banner from './components/Banner';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -45,6 +45,8 @@ function App() {
 
 
     {/* Bottom Banner */}
+
+    <Banner />
     {/* Newsletter */}
     {/* Footer */}
    </div>

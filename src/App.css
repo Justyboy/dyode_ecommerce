@@ -2,10 +2,8 @@
     *,
     *::before,
     *::after {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
-
 /* Remove default margin */
     body,
     h1,
@@ -19,7 +17,6 @@
     dd {
     margin: 0; 
     }
-
 /*Annoucement bar*/
     .topbar{
         display: flex;
@@ -40,15 +37,13 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 17px;
-        /* identical to box height */
         text-align: center;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #FFFFFF;
      }
 
-
-            /* Header */
+     /* Header */
     .header{
         display: flex;
         flex-wrap: wrap;
@@ -66,35 +61,28 @@
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
-        /* identical to box height */
         text-align: center;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-
     .slick-dots li.slick-active button:before{
         color: #fff;
     }
-
     .slick-next {
         right: 40px;
     }
-
-
     .slick-prev {
         left: 2% !important;
         z-index: 1;
       }
-      .slick-next {
+    .slick-next {
         right: 3% !important;
         z-index: 1;
       }
-
-      .slick-prev:before, .slick-next:before{
+    .slick-prev:before, .slick-next:before{
           font-size: 40px !important;
       }
-
     .bm-burger-bars{
         background: #fff;
     }
@@ -188,7 +176,6 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 17px;
-        /* identical to box height */
         background: #000;
         text-align: center;
         letter-spacing: 0.1em;
@@ -201,7 +188,6 @@
         background: #fff;
         color: #10504F;
      }
-
      .slick-dots{
          bottom: 12px;
      }
@@ -252,15 +238,15 @@
         width: 100%;
     }
     .collection-image {
-        width: 100%;
+    width: 100%;
     }
 
     /* Product Slider */
     .product-wrapper {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem 2rem;
     }
 
     .product-header{
@@ -276,8 +262,8 @@
     justify-content: center;
     }
     .product-image {
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
     }
 
     .product-title{
@@ -310,7 +296,62 @@
 
     }
     /* Bottom Banner */
+    .banner-text-on-image{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        bottom: 35%;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: end;
+        align-items: flex-end;
+        right: 20px;
+    }
 
+    .banner-text-on-image h1{  
+        font-family: Pacifico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 105px;
+        color: #fff;
+    }
+
+
+    .banner-text-on-image p {  
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+        color: #fff;
+ }
+
+ .banner-text-on-image button{  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background: #10504F;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff ;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem 0;
+ }
+ .banner-text-on-image button:hover{ 
+    background: #fff;
+    color: #10504F;
+ }
+
+ .banner-image{ 
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 193px;
+ }
 
     /* Newsletter */
 
@@ -328,16 +369,20 @@
             left: 24px;
             top: 104px;
         }
-        .collection:last-child img{
-            height: 350px;
-            object-fit: cover;
-        }
+      
     }
     @media only screen and (min-width: 550px) {
     .bm-burger-button{
         display: none;
      }
 
+    }
+
+    @media only screen and (max-width: 660px) {
+        .collection:last-child img{
+            height: 350px;
+            object-fit: cover;
+        }
     }
 
     @media only screen and (min-width: 750px) {
@@ -347,11 +392,21 @@
             transition: all 0.6s ease-in-out;
             transition-delay: 50ms;
          }
- 
+      
         }
 
     @media only screen and (max-width: 760px) {
         .text-on-image{
+            display: flex;
+            position: inherit;
+            flex-direction: column;
+            bottom: 25%;
+            flex-wrap: wrap;
+            padding: 1rem;
+            align-items: center;
+            background: #EFEFEF;
+        }
+        .banner-text-on-image{
             display: flex;
             position: inherit;
             flex-direction: column;
