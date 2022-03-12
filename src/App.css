@@ -139,6 +139,7 @@
          }
          .head-text {
             position: relative;
+            display: flex;
          }
          .text-on-image {
             display: flex;
@@ -300,19 +301,19 @@
         display: flex;
         position: absolute;
         flex-direction: column;
-        bottom: 35%;
+        bottom: 40%;
         flex-wrap: wrap;
         padding: 1rem;
         justify-content: end;
         align-items: flex-end;
-        right: 20px;
+        right: 55px;
     }
 
     .banner-text-on-image h1{  
         font-family: Pacifico;
         font-style: normal;
         font-weight: normal;
-        font-size: 60px;
+        font-size: 40px;
         line-height: 105px;
         color: #fff;
     }
@@ -346,14 +347,82 @@
     color: #10504F;
  }
 
- .banner-image{ 
-    width: 100%;
-    height: auto;
-    left: 0px;
-    top: 193px;
- }
+
 
     /* Newsletter */
+    .news-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #10504F;
+        padding: 1rem 2rem;
+    }
+
+    .news-title svg{
+        font-size: 40px;
+    }
+    .news-title{
+        font-family: 'Pacifico';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .news-text{
+        display: flex;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding: 1rem;
+    }
+    .news-text p{
+        width: 50%;
+    }
+    .news-input{
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .news-wrapper button{  
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        background: #10504F;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff ;
+        padding: 0.5rem 1.5rem;
+        margin: 1rem 0;
+        border: 2px solid #FFFFFF
+     }
+     .news-wrapper button:hover{ 
+        background: #fff;
+        color: #10504F;
+     }
+
+     .news-input input {
+        padding: 0.3rem;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #C6C6C6;
+        width: 75%;
+    }
+    
 
     /* Footer */
 
@@ -408,7 +477,7 @@
         }
         .banner-text-on-image{
             display: flex;
-            position: inherit;
+            position: initial;
             flex-direction: column;
             bottom: 25%;
             flex-wrap: wrap;
@@ -441,6 +510,35 @@
             font-size: 30px;
         }
   
+        .head-text {
+            display: block;
+         }
+         .news-input input{
+           display: none;
+        }
+        .news-text{
+            flex-direction: column;
+            align-items: center;
+        }
+        .news-text p{
+             width: 100%;
+             text-align: center;
+             padding: 0.5rem 2rem;
+        }
+        .news-wrapper button{
+            padding: .5rem 2rem;
+        }
+        .news-input{
+            padding: 2rem;
+        }
+
+       
+    }
+
+    @media only screen and (max-width: 900px){
+        .news-input input{
+            font-size: 18px;
+        }
     }
 
     @media only screen and (max-width: 550px) {

@@ -9,11 +9,13 @@ import Mens from './mens.png';
 import Accessories from './accessories.png';
 import Productslide from './components/Productslide';
 import Banner from './components/Banner';
+import Newsletter from './components/Newsletter';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 
 import './App.css'
+
 
 function App() {
 
@@ -47,7 +49,14 @@ function App() {
     {/* Bottom Banner */}
 
     <Banner />
+
+
     {/* Newsletter */}
+
+    <Newsletter />
+
+
+
     {/* Footer */}
    </div>
 
