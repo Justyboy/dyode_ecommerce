@@ -7,13 +7,16 @@ import Collection from './components/Collection';
 import Womens from './womens.png';
 import Mens from './mens.png';
 import Accessories from './accessories.png';
-
+import Productslide from './components/Productslide';
+import Products from './components/Products';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
 
 import './App.css'
 
 function App() {
+
   return (
     <div className="App" id="outer-container">
       <div className="topbar">
@@ -37,6 +40,10 @@ function App() {
     </div>
 
     {/* Product Slider */}
+    <div className="product-header">New Arrivals</div>
+    <Productslide />
+
+
     {/* Bottom Banner */}
     {/* Newsletter */}
     {/* Footer */}

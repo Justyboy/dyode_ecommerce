@@ -13,7 +13,7 @@ export default function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1
   };
-
+ 
   const colorWhite = {
     color: '#fff'
   };
@@ -37,11 +37,7 @@ export default function SimpleSlider() {
           </div>
       </div>
       </div> 
-
         {/* Hero banner image  */}
-
-
-
       <div className="hero-image">
       <div className = "head-text">
         <div className = "head-image">
@@ -58,9 +54,7 @@ export default function SimpleSlider() {
           </div>
       </div>
       </div> 
-
         {/* Hero banner image  */}
-      
       <div className="hero-image">
       <div className = "head-text">
         <div className = "head-image">
