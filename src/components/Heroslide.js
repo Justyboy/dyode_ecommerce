@@ -19,6 +19,9 @@ export default function SimpleSlider() {
   };
   
   return (
+    <div className="heroslide">
+
+   
     <Slider {...settings}>
   
       <div className="hero-image">
@@ -72,5 +75,6 @@ export default function SimpleSlider() {
       </div>
       </div> 
     </Slider>
+    </div>
   );
 }
