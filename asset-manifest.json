@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dyode_ecommerce/static/css/main.084f7927.css",
+    "main.js": "/dyode_ecommerce/static/js/main.a7263093.js",
+    "static/media/girl.png": "/dyode_ecommerce/static/media/girl.68082b59d7c3a316a6e0.png",
+    "static/media/Heroimg1.png": "/dyode_ecommerce/static/media/Heroimg1.be6172737c5a48703055.png",
+    "static/media/Heroimg2.png": "/dyode_ecommerce/static/media/Heroimg2.f48060193bf433729eb6.png",
+    "static/media/Heroimg3.png": "/dyode_ecommerce/static/media/Heroimg3.520005b98ceccf60975e.png",
+    "static/media/accessories.png": "/dyode_ecommerce/static/media/accessories.a754370f490b36768aa8.png",
+    "static/media/womens.png": "/dyode_ecommerce/static/media/womens.5c8671355c54a0554572.png",
+    "static/media/mens.png": "/dyode_ecommerce/static/media/mens.06ac6595ccc3acdd1e83.png",
+    "static/media/womenshirt.png": "/dyode_ecommerce/static/media/womenshirt.300193cd71166d29256a.png",
+    "static/media/slick.svg": "/dyode_ecommerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dyode_ecommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dyode_ecommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dyode_ecommerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dyode_ecommerce/index.html",
+    "main.084f7927.css.map": "/dyode_ecommerce/static/css/main.084f7927.css.map",
+    "main.a7263093.js.map": "/dyode_ecommerce/static/js/main.a7263093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.084f7927.css",
+    "static/js/main.a7263093.js"
+  ]
+}
