@@ -81,9 +81,11 @@
     .slick-prev {
         left: 2% !important;
         z-index: 1;
+        top: 45%;
       }
     .slick-next {
         right: 2% !important;
+        top: 45%;
         z-index: 1;
       }
     .slick-prev:before, .slick-next:before{
@@ -143,6 +145,10 @@
             position: relative;
             display: flex;
             max-height: 638px;
+         }
+
+         .head-image{
+             width: 100%;
          }
 
          .heroslide .slick-next, .heroslide .slick-prev{
