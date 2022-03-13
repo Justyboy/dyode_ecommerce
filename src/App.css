@@ -721,11 +721,7 @@ details > summary::-webkit-details-marker {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 950px) {
-  .collection {
-    padding: 0;
-  }
-}
+
 @media only screen and (max-width: 550px) {
   .text-on-image h1 {
     font-size: 50px;
