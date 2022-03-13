@@ -36,7 +36,8 @@ function App() {
       <Collection image={Accessories} title="Accessories"  />
       </div>
       {/* Product Slider */}
-      <div className="product-header">New Arrivals</div>
+      <div className="product-header full-text">New Arrivals</div>
+      <div className="product-header short-text">Shop New Arrivals</div>
       <Productslide />
       {/* Bottom Banner */}
       <Banner />

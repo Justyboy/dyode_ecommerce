@@ -29,7 +29,7 @@ export default function SimpleSlider() {
         }
       },
       {
-        breakpoint: 460,
+        breakpoint: 440,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -39,7 +39,6 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings}>
-   
       <div>
       <div><Products pTitle="Product Title 1" cTitle="Women's Collection" price="$19.99"/></div>
       </div>
@@ -49,7 +48,6 @@ export default function SimpleSlider() {
       <div>
       <div><Products pTitle="Product Title 3" cTitle="Summer Collection" price="$39.99"/></div>
       </div>
-
       <div>
       <div><Products pTitle="Product Title 4" cTitle="Women's Collection" price="$19.99"/></div>
       </div>
