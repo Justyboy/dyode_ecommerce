@@ -118,7 +118,7 @@
     }
     .header-left{
         display: flex;
-        padding: 1rem 1rem 1rem 3rem;
+        padding: 1rem 1rem 0 3rem;
     }
 
     svg{
@@ -207,6 +207,11 @@
          z-index: 999; 
          width: 75px; 
      }
+
+     .slick-slide img {
+         min-height: 200px;
+     }
+
 
      .bm-burger-bars{
         height: 5% !important;
@@ -356,7 +361,9 @@
     color: #10504F;
  }
 
-
+ .head-text img {
+    min-height: 225px;
+}
 
     /* Newsletter */
     .news-wrapper{
@@ -745,7 +752,7 @@
 
         @media only screen and (max-width: 440px) {
             .slick-dots{
-            bottom: 180px;
+            bottom: 280px;
             }
             .text-on-image h1 {
             font-size: 42px; 
