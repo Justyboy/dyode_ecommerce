@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dyode_ecommerce/static/css/main.084f7927.css",
+    "main.css": "/dyode_ecommerce/static/css/main.bd4d8a3f.css",
     "main.js": "/dyode_ecommerce/static/js/main.a7263093.js",
     "static/media/girl.png": "/dyode_ecommerce/static/media/girl.68082b59d7c3a316a6e0.png",
     "static/media/Heroimg1.png": "/dyode_ecommerce/static/media/Heroimg1.be6172737c5a48703055.png",
@@ -15,11 +15,11 @@
     "static/media/slick.ttf": "/dyode_ecommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/dyode_ecommerce/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/dyode_ecommerce/index.html",
-    "main.084f7927.css.map": "/dyode_ecommerce/static/css/main.084f7927.css.map",
+    "main.bd4d8a3f.css.map": "/dyode_ecommerce/static/css/main.bd4d8a3f.css.map",
     "main.a7263093.js.map": "/dyode_ecommerce/static/js/main.a7263093.js.map"
   },
   "entrypoints": [
-    "static/css/main.084f7927.css",
+    "static/css/main.bd4d8a3f.css",
     "static/js/main.a7263093.js"
   ]
 }
