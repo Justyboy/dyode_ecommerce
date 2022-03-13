@@ -20,10 +20,7 @@ export default function SimpleSlider() {
   
   return (
     <div className="heroslide">
-
-   
     <Slider {...settings}>
-  
       <div className="hero-image">
       <div className = "head-text">
         <div className = "head-image">

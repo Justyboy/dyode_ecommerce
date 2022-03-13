@@ -3,8 +3,6 @@ import productImg from '../assets/womenshirt.png';
 
 function Products({pTitle, cTitle, price}) {
   return (
-
-   
     <div className="product-wrapper">
       <div className="product-image">
         <img src={productImg} alt=""></img>

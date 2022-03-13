@@ -8,8 +8,6 @@ function Footer() {
   return (
       <>
    <div className="footer-wrapper">
-   
-   
    <div className="content footer-custom">
   <details  open>
   <summary><h3>Customer Services</h3></summary>
@@ -57,7 +55,6 @@ function Footer() {
         </div>
         </div>
 </div>
-
         </>
   )
 }

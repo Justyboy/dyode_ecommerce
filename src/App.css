@@ -486,7 +486,6 @@
             font-size: 1.25rem;
             font-weight: 600;
             color: #fff;
-            padding: 1rem 0 0 0;
             margin-bottom: 1rem;
             outline: none;
             border-radius: 0.25rem;
@@ -543,7 +542,25 @@
             left: 16px;
             top: 104px;
         }
-      
+
+        #react-burger-menu-btn{
+            position: absolute;
+            left: -10px !important;
+            top: -15px !important;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            font-size: 0px;
+            background: transparent;
+            cursor: pointer;
+            border: 2px solid #fff !important;
+            padding: 26px !important;
+            border-radius: 61px !important;
+        }
+  
     }
     @media only screen and (min-width: 550px) {
     .bm-burger-button{
@@ -651,7 +668,7 @@
             padding: .5rem 2rem;
         }
         .news-input{
-            padding: 2rem;
+            padding: 0 1rem;
         }
         .news-wrapper{
             padding: 1rem;
