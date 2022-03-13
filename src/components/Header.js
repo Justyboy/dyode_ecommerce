@@ -9,14 +9,14 @@ import companyLogo from '../assets/logo.png';
 function Header() {
   return (
       <div className='header'>
-    <div className="header__left">
+    <div className="header-left">
    <img src={companyLogo}
    alt="Company logo"
    width="100px"
    height="100px"
    /> 
    </div>
-   <div className='header__center'>
+   <div className='header-center'>
      <ul>
        <li>HOME</li>
        <li>WOMEN'S</li>
@@ -24,7 +24,7 @@ function Header() {
        <li>SALE!</li>
      </ul>
      </div>
-   <div className='header__right'> 
+   <div className='header-right'> 
       <SearchIcon />
       <AccountBoxIcon />
       <ShoppingCartIcon />  

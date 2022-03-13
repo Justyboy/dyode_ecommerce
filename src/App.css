@@ -51,7 +51,7 @@
         height: 138px;
         background: #10504F;
     }
-    .header__center{
+    .header-center{
         display: flex;
         text-align: center;
         justify-content: center;
@@ -66,6 +66,12 @@
         text-transform: uppercase;
         color: #FFFFFF;
     }
+ 
+        .header-left img {
+            width: 100px;
+            height: 91px;
+        }
+    
     .slick-dots li.slick-active button:before{
         color: #fff;
     }
@@ -89,7 +95,7 @@
     .bm-menu{
         background: #0b3837;
     }
-    .header__center ul, li {
+    .header-center ul, li {
         display: flex;
         flex-wrap: wrap;
         cursor: pointer;
@@ -97,28 +103,24 @@
         align-items: center;
         justify-content: center;
     }
-    .header__center ul li:hover{
+    .header-center ul li:hover{
         color: lightgray;
     }
-    .header__right svg:hover{
+    .header-right svg:hover{
         color: lightgray;
     }
-    .header__right{
+    .header-right{
         display: flex;
         justify-content: right;
         align-self: center;
         padding-left: 3rem;
         padding-right: 1rem;
     }
-    .header__left{
+    .header-left{
         display: flex;
         padding: 1rem 1rem 1rem 3rem;
     }
 
-    .header__left img{
-        width: 100%;
-        height: 100%;
-    }
     svg{
         color: #fff; 
         margin: 0 .5rem;
@@ -533,7 +535,7 @@
 
         /* All media queries below */
     @media only screen and (max-width: 550px) {
-        .header__center{
+        .header-center{
             display: none;
         }
         .bm-burger-button{
@@ -557,7 +559,7 @@
             background: transparent;
             cursor: pointer;
             border: 2px solid #fff !important;
-            padding: 26px !important;
+            padding: 23px !important;
             border-radius: 61px !important;
         }
   
@@ -642,7 +644,7 @@
             width: 100%;
             max-height: 475px;
         }
-        .header__center{
+        .header-center{
             font-size: 16px;
         }
         .collection-title{
@@ -732,6 +734,9 @@
             }
             .news-title {
                 font-size: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .news-text p{
                 font-size: 18px;
