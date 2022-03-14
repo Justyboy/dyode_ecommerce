@@ -745,7 +745,7 @@ details > summary::-webkit-details-marker {
 
 @media only screen and (max-width: 440px) {
   .slick-dots {
-    bottom: 280px;
+    bottom: 180px;
   }
   .text-on-image h1 {
     font-size: 42px;
